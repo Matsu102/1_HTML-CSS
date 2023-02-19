@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.border-list-box {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.border-list {
+  width: 960px;
+  padding: 20px;
+  background-color: #eee
+}
+
+.border-list:nth-child(even) {
+  background-color: #fff
+}
+
+.block-list-box {
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto 50px;
+}
+
+.block-list {
+  display: inline-block;
+  width: 30%;
+  height: 200px;
+  margin: 0 5% 40px 0;
+  background-color: #ffd700;
+}
+
+.block-list:nth-child(3n+3) {
+  margin: 0 0 40px 0;
+}
+
+.block-list:nth-child(4n+1){
+  background-color: #ff8c00;
+}
